@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    
+    <title>Formulario</title>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="Margen">
+        ---
+    </div>
+    <article id="fondo">
+        <form action="/formulario" method="post">
+            <br>
+            <label for="Nombre">Nombre: </label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Poner nombre"/>
+            <br>
+            <br>
+            <label>Correo: </label>
+            <input type="text" id="Correo" name="Correo" placeholder="Poner Correo"/>
+            <br><br>
+            <label for="Pass" >Contraseña: </label>
+            <input type="Contraseña" id="Contraseña" name="Contraseña" placeholder="Contraseña"/>
+            <br><br>
+            <label for="Selección" >Femenino: </label>
+            <input type="radio" id="Selección" name="Selección" placeholder="Selección"/>
+            <br>
+            <label for="Selección" >Masculino: </label>
+            <input type="radio" id="Selección" name="Selección" placeholder="Selección"/>
+            <br>
+            <label for="Selección" >No Binario: </label>
+            <input type="radio" id="Selección" name="Selección" placeholder="Selección"/>
+            <br><br>
+            <label for="Archivo" >Adjuntar archivo: </label>
+            <input type="file" id="Archivo" name="Archivo" placeholder="Archivo"/>
+            <br> <br>
+            <label for="Comentario" >Agregar comentario: </label>
+            <br> <br>
+            <textarea cols="40" rows="5" id="Comentario" name="Comentario" placeholder="Comentario"></textarea>
+            <br><br>
+            <label for="Caja" >Aceptar terminos: </label>
+            <input type="checkbox" id="Caja" name="Caja" placeholder="Caja"/>
+            <br><br>
+            <button type="reset">Enviar</button>
+        </form>
+        </article>
+        <div class="Margen">
+            ---
+        </div>
+</body>
+</html>

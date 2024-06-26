@@ -1,0 +1,27 @@
+#fondo{
+    background-color: #6495ed;
+
+    height: 500px;
+    background-image: url(kda.jpg);
+    background-size: cover;
+}
+.Margen{
+    background-color: black;
+    margin: 20px 20px;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+
+#Descripcion{
+    resize: none;
+}
+.imagen-centro{
+    text-align: center;
+}
+.elmargen{
+    background-color: black;
+    margin: 20px 20px;
+    text-align: center;
+}  
